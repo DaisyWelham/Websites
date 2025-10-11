@@ -5,17 +5,30 @@
   <meta charset="UTF-8">
   <title>Wednesday Checker</title>
   <link rel="stylesheet" href="style.css">
-
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png">
 </head>
 <body>
   <h1>Wednesday Checker</h1>
-  <p>Have you ever wanted to know whether today is Wednesday? Click below to find out!</p>
-  <button onclick="checkWednesday()">Is it Wednesday?</button>
 
-  <p>If today isn't Wednesday, click how long until it will be Wednesday!</p>
-  <button onclick="secondsUntilWednesday()">How long until Wednesday?</button>
+  <div class="main-content">
+    <div class="checker">
+      <p>Have you ever wanted to know whether today is Wednesday? Click below to find out!</p>
+      <button onclick="checkWednesday()">Is it Wednesday?</button>
+
+      <p>If today isn't Wednesday, click below to find out how long until it will be Wednesday!</p>
+      <button onclick="secondsUntilWednesday()">How long until Wednesday?</button>
+
+      <div class="lizard-section">
+        <img src="lizard.png" alt="PJ the lizard">
+        <p><em>Here's a completely irrelevant photo of my lizard, PJ!</em></p>
+      </div>
+    </div>
+
+    <aside class="fact-box">
+      <h2>Fact of the day!</h2>
+      <p>Did you know that honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!</p>
+    </aside>
+  </div>
 
   <script src="script.js"></script>
 </body>

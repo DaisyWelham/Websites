@@ -1,0 +1,1 @@
+Need a simple web quiz? This quiz has four types of questions: yes/no, multiple, select all, and text answer with a single example for each. If you get 70%+ it congratulates you, and if not it prompts you to try again. How well do you know your dinosaurs?
